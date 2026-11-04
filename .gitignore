@@ -1,0 +1,40 @@
+# Embedding model (too large, download separately)
+BAAI/
+
+# API keys
+.env
+
+# Generated indexes (can rebuild)
+data/indexes/
+
+# Session logs
+data/logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gephi exports (generated)
+eval/gephi_*.csv
+
+# Large data files (optional - uncomment if needed)
+# data/公司概述1.docx
+# data/企业文化1.docx
+# data/企业二维码.png
+# data/背景图.png
+# web/avatar/main.png
+# web/avatar/welcome-bg-shield-gas.png
+# web/avatar/emotion/*.png
